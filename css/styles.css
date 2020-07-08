@@ -1,0 +1,247 @@
+/* GLOBAL */
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  /* background-color: #E8E8E8; */
+  background: -webkit-linear-gradient(bottom, #D3D3D3, white);
+}
+h1, h2, h3, h4, h5{
+  font-family: Poppins, sans-serif;
+}
+p{
+  font-family: Montserrat, sans-serif;
+}
+a{
+  color: inherit;
+}
+a:hover{
+  color: grey;
+}
+.container{
+  width: 100%;
+  text-align: center;
+}
+.brand{
+  text-decoration: none;
+  color: black;
+}
+/* HEADER */
+header{
+  height: 150px;
+  background: -webkit-linear-gradient(bottom, #F8F8F8, #333);
+}
+header h1{
+  letter-spacing: 2px;
+  font-family: Fondamento, sans-serif;
+  font-size: 15px;
+  margin: 0;
+}
+.logo{
+  width: 10%;
+  position: relative;
+  display: block;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%);
+}
+/* NAVBAR */
+.navbar{
+  padding: 0;
+}
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+.navbar-toggler {
+  float: right;
+  margin-right: 30px;
+  margin-bottom: 5px;
+}
+.btn{
+  margin-bottom: 4px;
+}
+/* HOME SECTIONS */
+
+/* SECTION1 */
+.section-s1{
+  color: #3b6978;
+  background-image: url(../images/bg-5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 25px 0 0 0;
+  height: 700px;
+  filter: grayscale(70%);
+}
+.section-s1 h1{
+  letter-spacing: 2px;
+  font-size: 2.5rem;
+  text-decoration: overline;
+  padding-bottom: 100px;
+  background: -webkit-linear-gradient(0.25turn, #eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.section-s1 h2{
+  padding-top: 60px;
+  background: -webkit-linear-gradient(bottom, black, #E8E8E8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (max-width:900px) {
+  .section-s1 h2{
+    font-size: 1.5rem;
+  }
+}
+.home-s1{
+  padding: 200px 7% 0;
+}
+.index-button{
+  margin-top: 30px;
+}
+/* SECTION2 */
+.section-s2{
+  padding-top: 70px;
+}
+.section-s2 h1{
+  padding-top: 20px;
+  letter-spacing: 2px;
+  font-size: 2.5rem;
+  text-decoration: overline;
+  padding-bottom: 20px;
+  background: -webkit-linear-gradient(0.25turn, #eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.section-s2 p{
+  font-size: 36px;
+  padding: 20px 0;
+}
+.s2-images{
+  filter: grayscale(80%);
+  border: 2px solid black;
+  width: 350px;
+  height: 300px;
+}
+/* FOOTER */
+footer{
+  border-top: 1px solid  grey;
+  height: 10rem;
+  background-color: #D3D3D3;
+}
+footer p{
+  padding-top: 50px;
+}
+.social-media-icons{
+  padding: 37px;
+}
+
+
+
+
+
+
+/* ABOUT */
+/* .about-s1{
+  color: #303960;
+  background-image: url(../images/about-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  filter: grayscale(70%);
+} */
+.about-image{
+  border: 1px solid grey;
+  position: relative;
+  top: 0%;
+  width:60%;
+  height: 60%;
+}
+.about-s1 .container{
+  padding-top: 10px;
+  text-align: center;
+}
+.about-s1 h1{
+  padding-top: 20px;
+  border-bottom: 1px solid grey;
+  font-family: Fondamento, sans-serif;
+}
+.about-text{
+  padding: 15px 0;
+}
+
+
+/* GALERY */
+.galery-s1 h1{
+  padding-top: 20px;
+  border-bottom: 1px solid grey;
+  font-family: Fondamento, sans-serif;
+}
+.galery-s1 img{
+  width: 400px;
+  height: 300px;
+  padding: 10px 30px;;
+  margin-bottom: 30px;
+}
+.galery-pic{
+  filter: grayscale(70%);
+}
+.galery-pic:hover{
+  transform: scale(1.1);
+}
+/* PRICES */
+.blog-s1 h1{
+  padding-top: 20px;
+  border-bottom: 1px solid grey;
+  font-family: Fondamento, sans-serif;
+}
+.blog-s1 img{
+  filter: grayscale(70%);
+}
+.card-deck{
+  padding-bottom: 30px;
+  justify-content: center;
+}
+.card:hover{
+  transform: scale(1.15);
+}
+@media (max-width: 700px) {
+  .card-deck{
+      margin-left: 15%;
+  }
+  .card:hover{
+    transform: none;
+  }
+}
+/* CONTACT */
+.contact-s1 h1 {
+  padding-top: 20px;
+  border-bottom: 1px solid grey;
+  font-family: Fondamento, sans-serif;
+}
+.contact-s1 h2{
+    font-size: 20px;
+    padding-top: 20px;
+    font-family: Fondamento, sans-serif;
+}
+input{
+  text-align: center;
+  border: 2px black solid;
+  margin: 15px 0;
+  width: 70%;
+  height: 100px;
+}
+textarea{
+  text-align: center;
+  border: 2px black solid;
+  width: 70%
+}
