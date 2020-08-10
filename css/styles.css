@@ -4,8 +4,8 @@
   padding: 0;
 }
 body{
-  /* background-color: #E8E8E8; */
-  background: -webkit-linear-gradient(bottom, #D3D3D3, white);
+  height: 100vh;
+  width: 100%;
 }
 h1, h2, h3, h4, h5{
   font-family: Poppins, sans-serif;
@@ -56,7 +56,13 @@ header h1{
     display: block;
     text-align: center;
 }
-
+.nav-link{
+  transition: 0.3s ease;
+}
+.nav-link:hover{
+  transition: 0.3s ease;
+  border-bottom: 1px solid lightgrey;
+}
 .navbar-nav > li {
     display: inline-block;
     float:none;
@@ -102,13 +108,14 @@ header h1{
   }
 }
 .home-s1{
-  padding: 200px 7% 0;
+  padding: 200px 7% 0 0;
 }
 .index-button{
   margin-top: 30px;
 }
 /* SECTION2 */
 .section-s2{
+  background: -webkit-linear-gradient(#D3D3D3, white);
   padding-top: 70px;
 }
 .section-s2 h1{
@@ -135,7 +142,7 @@ header h1{
 footer{
   border-top: 1px solid  grey;
   height: 10rem;
-  background-color: #D3D3D3;
+  background: -webkit-linear-gradient(white, black);
 }
 footer p{
   padding-top: 50px;
@@ -194,15 +201,17 @@ footer p{
 }
 .galery-pic{
   filter: grayscale(70%);
+  transition: 0.2s ease;
 }
 .galery-pic:hover{
+  transition: 0.2s ease;
   transform: scale(1.1);
 }
 /* PRICES */
 .blog-s1 h1{
   padding-top: 20px;
   border-bottom: 1px solid grey;
-  font-family: Fondamento, sans-serif;
+  font-family: "Fondamento", sans-serif;
 }
 .blog-s1 img{
   filter: grayscale(70%);
@@ -211,7 +220,11 @@ footer p{
   padding-bottom: 30px;
   justify-content: center;
 }
+.card {
+  transition: 0.3s ease;
+}
 .card:hover{
+  transition: 0.3s ease;
   transform: scale(1.15);
 }
 @media (max-width: 700px) {
